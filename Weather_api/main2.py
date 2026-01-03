@@ -7,8 +7,8 @@ account_sid = "__YOUR_TWILIO_ACCOUNT_ID__"
 auth_token = "__YOUR_TWILIO_AUTH_TOKEN__"
 
 weather_params = {
-    "lat": 46.947975,
-    "lon": 7.447447,
+    "lat": "Your latitude",
+    "lon": "Your Longitude",
     "appid": api_key,
     "cnt": 4, #
 }
@@ -31,4 +31,5 @@ if will_rain:
         from_="YOUR TWILIO VIRTUAL NUMBER",
         to="YOUR TWILIO VERIFIED REAL NUMBER"
     )
+
     print(message.status)
